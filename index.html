@@ -115,117 +115,118 @@ Now Closed!
     vertical-align: top;
     text-align: center;
   }
+
   th {
-    background-color: #d6eaff; /* soft blue for Tuesday */
+    background-color: #d6eaff; /* pastel blue for headers */
   }
-  th:nth-child(3) {
-    background-color: #e9d9ff; /* soft lavender for Wednesday */
-  }
-  td {
-    background-color: #f9f9f9;
-  }
-  .first-column {
+
+  td.time {
+    background-color: #e6f3ff; /* pastel blue for time column */
     font-weight: bold;
     width: 20%;
   }
-  .first-column.tuesday {
-    background-color: #e6f3ff; /* match Tuesday pastel */
+
+  td.default {
+    background-color: #e6f3ff; /* pastel blue for regular cells */
   }
-  .first-column.wednesday {
-    background-color: #f0e6ff; /* match Wednesday pastel */
+
+  td.special {
+    background-color: #f0e6ff; /* pastel lavender for Poetto, Breyton, Cortes, Wiederhold */
   }
-  .break {
-    background-color: #fff8dc; /* lighter pastel yellow */
+
+  td.break {
+    background-color: #fff9e6; /* soft pastel yellow for breaks */
     font-weight: bold;
+    text-align: center;
   }
 </style>
 
 <table>
   <tr>
-    <th class="first-column"></th>
+    <th></th>
     <th>Tuesday 8th</th>
     <th>Wednesday 9th</th>
   </tr>
   <tr>
-    <td class="first-column">09:00 - 09:45</td>
-    <td><b>Marius Pille</b><br>Charité – Berlin University of Medicine, Germany<br>
+    <td class="time">09:00 - 09:45</td>
+    <td class="default"><b>Marius Pille</b><br>Charité – Berlin University of Medicine, Germany<br>
       <i><a href="#pille">"The Virtual Brain reveals sweet dynamics of deep brain stimulation in Parkinson’s disease"</a></i>
     </td>
-    <td><b>Giovanni Petri</b><br>Northeastern University London, UK<br>
+    <td class="default"><b>Giovanni Petri</b><br>Northeastern University London, UK<br>
       <i><a href="#petri">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">09:45 - 10:10</td>
-    <td><b>Martin Breyton</b><br>Aix-Marseille University, France<br>
+    <td class="time">09:45 - 10:10</td>
+    <td class="special"><b>Martin Breyton</b><br>Aix-Marseille University, France<br>
       <i><a href="#breyton">tba</a></i>
     </td>
-    <td><b>Simone Poetto</b><br>Nicolaus Copernicus University, Torun, Poland<br>
+    <td class="special"><b>Simone Poetto</b><br>Nicolaus Copernicus University, Torun, Poland<br>
       <i><a href="#poetto">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">10:10 - 10:30</td>
-    <td><b>Bastian Wiederhold</b><br>Ludwig Maximilian University of Munich, Germany<br>
+    <td class="time">10:10 - 10:30</td>
+    <td class="special"><b>Bastian Wiederhold</b><br>Ludwig Maximilian University of Munich, Germany<br>
       <i><a href="#wiederhold">tba</a></i>
     </td>
-    <td><b>Jesús Cortes</b><br>BioCruces Health Research Institute, Spain<br>
+    <td class="special"><b>Jesús Cortes</b><br>BioCruces Health Research Institute, Spain<br>
       <i><a href="#cortes">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">10:30 - 11:00</td>
-    <td colspan="2" style="background-color:#ffe0b2;"><b>Coffee Break</b></td>
+    <td class="time">10:30 - 11:00</td>
+    <td class="break" colspan="2">Coffee Break</td>
   </tr>
   <tr>
-    <td class="first-column">11:00 - 11:45</td>
-    <td><b>Maria Pope</b><br>Indiana University, USA<br>
+    <td class="time">11:00 - 11:45</td>
+    <td class="default"><b>Maria Pope</b><br>Indiana University, USA<br>
       <i><a href="#pope">tba</a></i>
     </td>
-    <td><b>Clelia de Mulatier</b><br>University of Amsterdam, Netherlands<br>
+    <td class="default"><b>Clelia de Mulatier</b><br>University of Amsterdam, Netherlands<br>
       <i><a href="#demulatier">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">11:45 - 12:30</td>
-    <td><b>Xenia Kobeleva</b><br>Ruhr University, Germany<br>
+    <td class="time">11:45 - 12:30</td>
+    <td class="default"><b>Xenia Kobeleva</b><br>Ruhr University, Germany<br>
       <i><a href="#kobeleva">"Computational Modeling for Clinical Purposes: How much Information is needed?"</a></i>
     </td>
-    <td><b>Marilyn Gatica</b><br>Northeastern University London, UK<br>
+    <td class="default"><b>Marilyn Gatica</b><br>Northeastern University London, UK<br>
       <i><a href="#gatica">"High-order functional interactions in health and therapy: aging and transcranial ultrasound stimulation"</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">12:30 - 14:00</td>
-    <td colspan="2" style="background-color:#ffe0b2;"><b>Lunch Break</b></td>
+    <td class="time">12:30 - 14:00</td>
+    <td class="break" colspan="2">Lunch Break</td>
   </tr>
   <tr>
-    <td class="first-column">14:00 - 14:45</td>
-    <td></td>
-    <td><b>tba</b><br><i><a href="#">tba</a></i></td>
+    <td class="time">14:00 - 14:45</td>
+    <td class="default"></td>
+    <td class="default"><b>tba</b><br><i><a href="#">tba</a></i></td>
   </tr>
   <tr>
-    <td class="first-column">14:45 - 15:30</td>
-    <td></td>
-    <td><b>Andrea Brovelli</b><br>Aix-Marseille University, France<br>
+    <td class="time">14:45 - 15:30</td>
+    <td class="default"></td>
+    <td class="default"><b>Andrea Brovelli</b><br>Aix-Marseille University, France<br>
       <i><a href="#brovelli">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">15:30 - 16:00</td>
-    <td colspan="2" style="background-color:#ffe0b2;"><b>Coffee Break</b></td>
+    <td class="time">15:30 - 16:00</td>
+    <td class="break" colspan="2">Coffee Break</td>
   </tr>
   <tr>
-    <td class="first-column">16:00 - 16:45</td>
-    <td></td>
-    <td><b>Luca Faes</b><br>University of Palermo, Italy<br>
+    <td class="time">16:00 - 16:45</td>
+    <td class="default"></td>
+    <td class="default"><b>Luca Faes</b><br>University of Palermo, Italy<br>
       <i><a href="#faes">"Measuring Directed and Undirected High-Order Interactions in Dynamic Physiological Networks through Information Rate Decomposition"</a></i>
     </td>
   </tr>
   <tr>
-    <td class="first-column">16:45 - 17:30</td>
-    <td></td>
-    <td><b>Patricio Orio</b><br>Universidad de Valparaíso, Chile<br>
+    <td class="time">16:45 - 17:30</td>
+    <td class="default"></td>
+    <td class="default"><b>Patricio Orio</b><br>Universidad de Valparaíso, Chile<br>
       <i><a href="#orio">tba</a></i>
     </td>
   </tr>
