@@ -92,7 +92,6 @@ The workshop will be held as a part of the CNS*2025 in Florence, Italy. Please s
 		  <li><a href="https://scholar.google.com/citations?user=amCIC84AAAAJ&hl=en">Simone Poetto</a>, Nicolaus Copernicus University, Torun, Poland — <i><a href="#poetto">tba</a></i></li>
 		  <li><a href="https://jesuscortes.info/">Jesús Cortes</a>, BioCruces Health Research Institute, Spain — <i><a href="#cortes">tba</a></i></li>
 		  <li><a href="https://www.uva.nl/en/profile/d/e/c.m.c.demulatier/c.m.c.demulatier.html">Clelia de Mulatier</a>, University of Amsterdam, Netherlands — <i><a href="#demulatier">tba</a></i></li>
-		  <li><a href="mailto:laura.sparacino@unipa.it">Laura Sparacino</a>, University of Palermo, Italy — <i><a href="#sparacino">tba</a></i></li>
 		</ul>
 	</p>
 
@@ -105,7 +104,8 @@ Now Closed!
 <h2>Program</h2>
 <style>
   table {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     border-collapse: collapse;
     font-family: sans-serif;
   }
@@ -117,27 +117,31 @@ Now Closed!
   }
 
   th {
-    background-color: #d6eaff; /* pastel blue for headers */
+    background-color: #d9d9d9; /* darker grey for day headers */
   }
 
-  td.time {
-    background-color: #e6f3ff; /* pastel blue for time column */
-    font-weight: bold;
-    width: 20%;
+  td.default,
+  td.time-default {
+    background-color: #e6f3ff; /* pastel blue for standard talks */
   }
 
-  td.default {
-    background-color: #e6f3ff; /* pastel blue for regular cells */
+  td.special,
+  td.time-special {
+    background-color: #f0e6ff; /* pastel lavender for shorter talks */
   }
 
-  td.special {
-    background-color: #f0e6ff; /* pastel lavender for Poetto, Breyton, Cortes, Wiederhold */
-  }
-
-  td.break {
-    background-color: #fff9e6; /* soft pastel yellow for breaks */
+  td.break,
+  td.time-break {
+    background-color: #f2f2f2; /* light grey for breaks */
     font-weight: bold;
     text-align: center;
+  }
+
+  td.time-default,
+  td.time-special,
+  td.time-break {
+    width: 20%;
+    font-weight: bold;
   }
 </style>
 
@@ -148,7 +152,7 @@ Now Closed!
     <th>Wednesday 9th</th>
   </tr>
   <tr>
-    <td class="time">09:00 - 09:45</td>
+    <td class="time-default">09:00 - 09:45</td>
     <td class="default"><b>Marius Pille</b><br>Charité – Berlin University of Medicine, Germany<br>
       <i><a href="#pille">"The Virtual Brain reveals sweet dynamics of deep brain stimulation in Parkinson’s disease"</a></i>
     </td>
@@ -157,16 +161,16 @@ Now Closed!
     </td>
   </tr>
   <tr>
-    <td class="time">09:45 - 10:10</td>
+    <td class="time-special">09:45 - 10:10</td>
     <td class="special"><b>Martin Breyton</b><br>Aix-Marseille University, France<br>
       <i><a href="#breyton">tba</a></i>
     </td>
-    <td class="special"><b>Simone Poetto</b><br>Nicolaus Copernicus University, Torun, Poland<br>
+    <td class="special"><b>Simone Poetto</b><br>Nicolaus Copernicus University, Toruń, Poland<br>
       <i><a href="#poetto">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="time">10:10 - 10:30</td>
+    <td class="time-special">10:10 - 10:30</td>
     <td class="special"><b>Bastian Wiederhold</b><br>Ludwig Maximilian University of Munich, Germany<br>
       <i><a href="#wiederhold">tba</a></i>
     </td>
@@ -175,11 +179,11 @@ Now Closed!
     </td>
   </tr>
   <tr>
-    <td class="time">10:30 - 11:00</td>
+    <td class="time-break">10:30 - 11:00</td>
     <td class="break" colspan="2">Coffee Break</td>
   </tr>
   <tr>
-    <td class="time">11:00 - 11:45</td>
+    <td class="time-default">11:00 - 11:45</td>
     <td class="default"><b>Maria Pope</b><br>Indiana University, USA<br>
       <i><a href="#pope">tba</a></i>
     </td>
@@ -188,7 +192,7 @@ Now Closed!
     </td>
   </tr>
   <tr>
-    <td class="time">11:45 - 12:30</td>
+    <td class="time-default">11:45 - 12:30</td>
     <td class="default"><b>Xenia Kobeleva</b><br>Ruhr University, Germany<br>
       <i><a href="#kobeleva">"Computational Modeling for Clinical Purposes: How much Information is needed?"</a></i>
     </td>
@@ -197,40 +201,41 @@ Now Closed!
     </td>
   </tr>
   <tr>
-    <td class="time">12:30 - 14:00</td>
+    <td class="time-break">12:30 - 14:00</td>
     <td class="break" colspan="2">Lunch Break</td>
   </tr>
   <tr>
-    <td class="time">14:00 - 14:45</td>
+    <td class="time-default">14:00 - 14:45</td>
     <td class="default"></td>
     <td class="default"><b>tba</b><br><i><a href="#">tba</a></i></td>
   </tr>
   <tr>
-    <td class="time">14:45 - 15:30</td>
+    <td class="time-default">14:45 - 15:30</td>
     <td class="default"></td>
     <td class="default"><b>Andrea Brovelli</b><br>Aix-Marseille University, France<br>
       <i><a href="#brovelli">tba</a></i>
     </td>
   </tr>
   <tr>
-    <td class="time">15:30 - 16:00</td>
+    <td class="time-break">15:30 - 16:00</td>
     <td class="break" colspan="2">Coffee Break</td>
   </tr>
   <tr>
-    <td class="time">16:00 - 16:45</td>
+    <td class="time-default">16:00 - 16:45</td>
     <td class="default"></td>
     <td class="default"><b>Luca Faes</b><br>University of Palermo, Italy<br>
       <i><a href="#faes">"Measuring Directed and Undirected High-Order Interactions in Dynamic Physiological Networks through Information Rate Decomposition"</a></i>
     </td>
   </tr>
   <tr>
-    <td class="time">16:45 - 17:30</td>
+    <td class="time-default">16:45 - 17:30</td>
     <td class="default"></td>
     <td class="default"><b>Patricio Orio</b><br>Universidad de Valparaíso, Chile<br>
       <i><a href="#orio">tba</a></i>
     </td>
   </tr>
 </table>
+
 	
 <!-- ...............Abstracts-->
 	<a name="abst"></a>
