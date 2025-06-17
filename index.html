@@ -241,43 +241,65 @@ Now Closed!
 <!-- ...............Abstracts-->
 	<a name="abst"></a>
 	<h2>Abstracts</h2>
+	<a name="abst"></a>
 	<a name="petri"></a>
 	<p>
 	    <b>Giovanni Petri</b> - <i>tba</i><br/>
 	</p>
+	
 	<a name="gatica"></a>
 	<p>
 	    <b>Marilyn Gatica</b> - <i>"High-order functional interactions in health and therapy"</i><br/>
 	    In this talk, I will discuss the relevance of understanding high-order interactions in clinical applications using fMRI data, highlighting their significance in healthy aging in humans and their potential in therapeutic applications, such as transcranial ultrasound stimulation, in both human and macaque brains.
 	</p>
-
+	
 	<a name="faes"></a>
 	<p>
 	    <b>Luca Faes</b> - <i>"Measuring Directed and Undirected High-Order Interactions in Dynamic Physiological Networks through Information Rate Decomposition"</i><br/>
-
-Information Decomposition tools are emerging as principled and flexible frameworks to unveil complex high-order interactions
-		in a wide range of network systems in computational neuroscience and physiology. Two of the most popular tools
-		in this context are the O-information (OI), an undirected metric quantifying the balance between redundant and
-		synergistic high-order interactions among three or more random variables, and the partial information decomposition
-		(PID), a directed approach capable of dissecting the information shared between an assigned target variable and two
-		or more sources into separate redundant and synergistic contributions. In spite of being defined specifically for 
-		random variables, these tools are ubiquitously applied to multivariate neurophysiological time series interpreted as 
-		realizations of random processes with temporal statistical structure. In this work, to overcome the incorrect depiction of
-		high-order effects by OI and PID when applied to dynamic networks, we introduce the frameworks of O-information rate (OIR) 
-		and partial information rate decomposition (PIRD). By leveraging mutual information rate (MIR) instead of mutual information 
-		(MI), our approach decomposes the dynamic information shared by multivariate random processes into unique, redundant,
-		and synergistic contributions obtained aggregating information rate atoms in a principled manner. 
-		To solve PIRD, we define a pointwise redundancy rate function based on the minimum MI principle applied locally in the
-		frequency-domain representation of the processes. The framework is validated in benchmark simulations of dynamic Gaussian
-		systems, demonstrating its advantages over traditional OI and PID schemes and showing how the spectral representation may 
-		reveal scale-specific higher-order interactions that are obscured in the time domain. OIR and PIRD are then applied to exemplary 
-		physiological network systems with dynamic behavior probed measuring multivariate neurophysiological time series.
+	    Information Decomposition tools are emerging as principled and flexible frameworks to unveil complex high-order interactions in a wide range of network systems in computational neuroscience and physiology. Two of the most popular tools in this context are the O-information (OI), an undirected metric quantifying the balance between redundant and synergistic high-order interactions among three or more random variables, and the partial information decomposition (PID), a directed approach capable of dissecting the information shared between an assigned target variable and two or more sources into separate redundant and synergistic contributions. In spite of being defined specifically for random variables, these tools are ubiquitously applied to multivariate neurophysiological time series interpreted as realizations of random processes with temporal statistical structure. In this work, to overcome the incorrect depiction of high-order effects by OI and PID when applied to dynamic networks, we introduce the frameworks of O-information rate (OIR) and partial information rate decomposition (PIRD). By leveraging mutual information rate (MIR) instead of mutual information (MI), our approach decomposes the dynamic information shared by multivariate random processes into unique, redundant, and synergistic contributions obtained aggregating information rate atoms in a principled manner. To solve PIRD, we define a pointwise redundancy rate function based on the minimum MI principle applied locally in the frequency-domain representation of the processes. The framework is validated in benchmark simulations of dynamic Gaussian systems, demonstrating its advantages over traditional OI and PID schemes and showing how the spectral representation may reveal scale-specific higher-order interactions that are obscured in the time domain. OIR and PIRD are then applied to exemplary physiological network systems with dynamic behavior probed measuring multivariate neurophysiological time series.
 	</p>
-
+	
 	<a name="pope"></a>
 	<p>
 	    <b>Maria Pope</b> - <i>tba</i><br/>
 	</p>
+	
+	<a name="orio"></a>
+	<p>
+	    <b>Patricio Orio</b> - <i>"Synergistic high-order statistics in a neural network is related to task complexity and attractor characteristics"</i><br/>
+	    Emergence of collective functions in the brain is an open question in neuroscience, as they are believed to underlie consciousness, behavioral outputs, and brain disorders. It is unknown how measurable emergent behaviors can originate and be sustained, contributing to information processing. We studied the self-emergence of high-order interactions (HOIs) in RNNs that undergo plasticity to learn to perform cognitive tasks of different complexity. HOIs are statistical structures that are present in a group of variables but not in pair-wise interactions, and are characterized by tools from Information Theory. We trained continuous-time RNNs to perform one of the following tasks: Go/NoGo, Negative patterning, Temporal Discrimination, Context-dependent Decision making. Then, the dynamics of the hidden layer was evaluated. HOIs were characterized using the O-info and S-info metrics, at different orders of interaction taking all combinations from 3 to 11 nodes. The dimension of the trajectory was assessed by the amount of variance explained by the first 5 PCA components. In our results, training causes the dynamics of hidden layer to show HOIs with high redundancy at higher orders of interaction and synergistic interactions measured at lower order. More synergy is observed after training with the context-dependent task, while more redundancy is originated by the simpler Go/NoGo. Synergistic interactions are correlated with more complex dynamics as suggested by a trajectory of higher dimension. Finally, we tested different pruning procedures to obtain sparser weight matrices, without observing an effect on the HOIs measured. Our results suggest that complex tasks promote the emergence of synergistic interactions.
+	</p>
+	
+	<a name="brovelli"></a>
+	<p>
+	    <b>Andrea Brovelli</b> - <i>"Higher-order and distributed synergistic functional interactions encode information gain in goal-directed learning"</i><br/>
+	    The ability to create beliefs about the consequences of our actions, also known as goal-directed learning, is a key facet of cognition and it provides the basis for rational decision-making. Goal-directed learning arises from a distributed neural circuit including the prefrontal, posterior parietal and temporal cortices. However, the role of cortico-cortical functional interactions remains unclear. To address this question, we integrated the information decomposition framework with human magnetoencephalography (MEG) to investigate whether and how learning signals are encoded through neural interactions. Our findings revealed that information gain (the reduction in uncertainty about the causal relationship between an action and its consequence) is represented within a distributed cortical network, incorporating the visual, parietal, lateral prefrontal, and ventromedial/orbital prefrontal cortices. Remarkably, cortico-cortical interactions encoded information gain in a synergistic manner, beyond what individual regions represented alone. Synergistic interactions between cortical regions encoded information gain at the level of pairwise and higher-order relations, such as triplets and quadruplets. Higher-order synergistic interactions were characterized by long-range relationships centered in the ventromedial and orbitofrontal cortices, which served as key receivers in the broadcast of information gain across cortical circuits. Overall, this study provides evidence that information gain is encoded through both synergistic and higher-order functional interactions and is broadcast to the prefrontal reward circuitry. Furthermore, our findings offer a new perspective on how cognitively relevant information is encoded and transmitted within distributed cortical networks and brain-wide dynamics.
+	</p>
+	
+	<a name="cortes"></a>
+	<p>
+	    <b>Jesús Cortes</b> - <i>"Brain structural modules associated to functional high-order interactions in the human brain"</i><br/>
+	    The brain’s modular organization, ranging from microcircuits to large-scale networks, has been extensively studied in terms of its structural and functional properties. Particularly insightful has been the investigation of the coupling between structural connectivity (SC) and functional connectivity (FC), whose analysis has revealed important insights into the brain’s efficiency and adaptability related to various cognitive functions. Interestingly, links in SC are intrinsically pairwise but this is not the case for FC; and while recent work demonstrates the relevance of the brain’s high-order interactions (HOI), the coupling of between SC and functional HOI remains unexplored. To address this gap, this study leverages functional MRI and diffusion weighted imaging to delineate the brain’s modular structure by investigating the coupling between SC and functional HOI. Our results demonstrates that structural networks can be associated with both redundant and synergistic functional interactions. In particular, SC exhibits both positive and negative correlations with redundancy, it shows consistent positive correlations with synergy, indicating that a higher density of structural connections is linked to increased synergistic interactions. These findings advance our understanding of the complex relationship between structural and high-order functional properties, shedding light on the brain’s architecture underlying its modular organization.
+	</p>
+	
+	<a name="wiederhold"></a>
+	<p>
+	    <b>Bastian Wiederhold</b> - <i>"The limits of human information processing"</i><br/>
+	    In a recent study Zheng and Meister (Neuron 2025) found that humans can process only around 10 bit/s of high-level information. In this talk, I will show that information processing reaches 42 bit/s in memory competitions and 160 bit/s in mental calculation competitions. A majority of the time during memorization seems to be spent on reading suggesting that associations in memory form even faster. In mental calculation, for a short period, visual processing reaches 90 bit/s and algorithmic processing 70 bit/s.
+	</p>
+	
+	<a name="breyton"></a>
+	<p>
+	    <b>Martin Breyton</b> - <i>"Spatiotemporal brain complexity quantifies consciousness outside of perturbation paradigms"</i><br/>
+	    Signatures of consciousness are found in spectral and temporal properties of neuronal activity. Among these, spatiotemporal complexity after a perturbation has recently emerged as a robust metric to infer levels of consciousness. Perturbation paradigms remain, however, difficult to perform routinely. To discover alternative paradigms and metrics we systematically explore brain stimulation and resting-state activity in a whole-brain model. We find that perturbational complexity only occurs when the brain model operates within a specific dynamical regime, in which spontaneous activity produces a large degree of functional network reorganizations referred to as being fluid. The regime of high brain fluidity is characterized by a small battery of metrics drawn from dynamical systems theory and predicts the impact of consciousness altering drugs (Xenon, Propofol and Ketamine). We validate the predictions in a cohort of 15 subjects at various stages of consciousness and demonstrate their agreement with previously reported perturbational complexity, but in a more accessible paradigm. Beyond the facilitation in clinical use, the metrics highlights complexity properties of brain dynamics in support of emergence of consciousness.
+	</p>
+	
+	<a name="poetto"></a>
+	<p>
+	    <b>Simone Poetto</b> - <i>"Topological Fingerprinting: Mesoscale Signatures and Information Dynamics of Individual Brain Identity"</i><br/>
+	    Identifying individuals by their unique brain functional architecture is a key goal in neuroscience. However, standard functional connectivity (FC) methods for "brain fingerprinting" often overlook higher-order network topology. This study uses homological scaffolds, via topological data analysis (TDA) of resting-state fMRI, as a superior brain fingerprint. Analyzing Human Connectome Project data (n=100), topological fingerprints achieved 100% identification accuracy, outperforming FC-based methods (~90%) robustly across varying preprocessing, atlases, and scan durations. Notably, scaffold-based discriminative power stems from connections between networks, unlike FC's reliance on within-network features, highlighting a mesoscale signature of identity. Crucially, an information-theoretic analysis using integrated information decomposition (IID) reveals a novel link between the topological structure captured by scaffolds and the underlying information dynamics. The scaffold construction inherently identifies topological "holes" (1-dimensional cycles, or H1 generators) in the functional connectome. We found that the "border edges," which define the boundaries of these topological cycles and typically exhibit high FC, are characterized by high informational redundancy. This aligns with the known strong correlation between FC and redundancy, where border edges represent stable, potentially well-trodden communication pathways. In contrast, the "internal edges" – those connections that span across these topological voids – exhibit significantly higher synergistic information. These internal scaffold edges displayed higher synergy compared to border edges and also higher than randomly selected edges, even when controlling for FC strength, or randomly selecting other cycle structures. This suggests that the topological voids identified by persistent homology are not merely areas of weak pairwise correlation but are structured regions characterized by heightened synergistic interactions among the connections spanning them. We propose that the unique, individual-specific signature of brain organization captured by scaffolds is encoded in this balance between structured, redundant information flow along cycle boundaries and flexible, synergistic integration within the topological holes. This mesoscale organization, characterized by the specific arrangement of redundant and synergistic pathways, offers a richer, more nuanced view of brain function than pairwise FC alone. These findings establish topological scaffolds not only as a powerful tool for capturing individual variability but also as a framework for understanding how unique signatures of brain organization are encoded in the interplay between mesoscale network integration and information dynamics. This approach holds promise for biomarker discovery and for a deeper understanding of individual differences in cognition and behavior.
+	</p>
+
 
 <!-- ...............Previous workshops-->
 		<a name="prev"></a>
